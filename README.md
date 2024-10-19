@@ -1,6 +1,7 @@
 # m2m
 
 Mission 2 Moon is a fun and interactive word-typing game where the player controls a spaceship and fights against a boss. This project is created using Scala and ScalaFx and developed as part of the assignment for the object-oriented programming(OOP) course. In this game, players can select different game levels (Easy, Normal, Hard), each offering different difficulties in terms of boss health and word complexity.
+<img src="./demo_m2m.gif">
 
 ## Game Features
 

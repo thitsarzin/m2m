@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tt.game.m2m.controller.ResultPageController">
+    <children>
+        <ImageView fx:id="resultImage" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="homeButton" layoutX="395.0" layoutY="262.0" mnemonicParsing="false" styleClass="long" text="&lt; Home" AnchorPane.bottomAnchor="111.0" />
+      <GridPane layoutX="377.0" layoutY="164.0" prefHeight="90.0" prefWidth="160.0" styleClass="result">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="78.0" minWidth="10.0" prefWidth="54.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="78.0" minWidth="7.0" prefWidth="29.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="0.0" prefWidth="91.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label styleClass="result" text="Name" />
+            <Label styleClass="result" text="Time" GridPane.rowIndex="1" />
+            <Label styleClass="result" text="Level" GridPane.rowIndex="2" />
+            <Label fx:id="nameLabel" styleClass="result" text="Label" GridPane.columnIndex="2" />
+            <Label fx:id="scoreLabel" styleClass="result" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="levelLabel" styleClass="result" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label styleClass="result" text=":" GridPane.columnIndex="1" />
+            <Label styleClass="result" text=":" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label styleClass="result" text=":" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,161 @@
+.anchor-pane {
+    -fx-background-color: black;
+}
+
+.button {
+    -fx-background-image: url("/images/button_background.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: none;
+    -fx-background-position: center;
+    -fx-text-fill: #2f0c2f;
+    -fx-font-size: 14pt;
+}
+
+.button.long {
+    -fx-font-size: 10pt;
+    -fx-background-size: 100% 100%;
+}
+
+.button.start {
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-background-size: 100% 100%;
+}
+
+.label {
+    -fx-text-fill: #F7C92E;
+}
+
+.label.result {
+    -fx-text-fill: #3E3467;
+}
+
+.label.word2type {
+    -fx-text-fill: #3E3467;
+}
+
+.label.rules {
+    -fx-text-fill: #3E3467;
+}
+
+.root {
+    -fx-background-color: black;
+    -fx-text-fill: #F7C92E;
+}
+
+.text-field {
+    -fx-control-inner-background: black;
+    -fx-text-fill: #efd967;
+}
+
+/* ListView styling */
+.list-view {
+    -fx-background-color: #171616;
+    -fx-text-fill: #F7C92E;
+    -fx-border-color: #171616;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #1b1919;
+    -fx-text-fill: #f5f5f5;
+    -fx-border-color: transparent;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #353535;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #F7C92E;
+    -fx-text-fill: black;
+}
+
+.split-pane {
+    -fx-background-color: #171616;
+}
+
+.split-pane > .split-pane-divider {
+    -fx-background-color: #281750;
+}
+
+.list-view:filled {
+    -fx-selection-background-color: black;
+}
+
+.image-view {
+    -fx-background-color: black;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.8) , 10,0.0,0,2 );
+}
+
+.table-view {
+    -fx-background-color: black;
+    -fx-text-fill: #F7C92E;
+    -fx-border-color: #efd967;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #1b1919;
+    -fx-text-fill: #F7C92E;
+}
+
+.table-column {
+    -fx-background-color: #171616;
+    -fx-text-fill: #F7C92E;
+}
+
+.border-pane {
+    -fx-background-color: black;
+}
+
+.menu-bar {
+    -fx-background-color: black;
+    -fx-text-fill: #F7C92E;
+}
+
+.menu {
+    -fx-background-color: black;
+    -fx-text-fill: #93771b;
+}
+
+.menu:hover {
+    -fx-background-color: #4c4c4c;
+}
+
+.menu-item:hover {
+    -fx-background-color: #555555;
+}
+
+.menu-item:focused {
+    -fx-background-color: #555555;
+}
+
+
+.dialog-pane {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #444444;
+    -fx-border-width: 2px;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #333333;
+    -fx-text-fill: #e0e0e0;
+}
+
+.dialog-pane .content-panel {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #d0d0d0;
+}
+
+.dialog-pane .button-bar {
+    -fx-background-color: #333333;
+    -fx-border-color: #444444;
+}
+
+.game-background {
+    -fx-background-image: url("/images/Gamebg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+

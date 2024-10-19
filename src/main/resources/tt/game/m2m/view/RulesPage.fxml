@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tt.game.m2m.controller.RulesPageController">
+   <children>
+      <ImageView fx:id="rulesImage" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <VBox alignment="TOP_CENTER" layoutX="118.0" layoutY="42.0">
+         <children>
+            <Label contentDisplay="CENTER" prefHeight="35.0" prefWidth="291.0" styleClass="rules" text="Welcome to Mission 2 Moon!" textAlignment="CENTER" textFill="#3e3467" underline="true">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="114.0" styleClass="rules" text="Here's how to play:" textAlignment="CENTER" textFill="#3e3467">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="37.0" prefWidth="323.0" styleClass="rules" text="Select Your Spaceship: Pick your spaceship, each with unique abilities." textFill="#3e3467" wrapText="true">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="324.0" styleClass="rules" text="Choose a Level: Select from Easy, Normal, or Hard for varying challenges." textFill="#3e3467" wrapText="true">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="37.0" prefWidth="323.0" styleClass="rules" text="Move and Fire: Use the Left and Right arrow keys to move, and press the Spacebar to shoot enemy ships." textFill="#3e3467" wrapText="true">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="326.0" styleClass="rules" text="Defeat the Final Boss: Type the words that appear on the screen to reduce the boss’s health." textFill="#3e3467" wrapText="true">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="55.0" prefWidth="365.0" styleClass="rules" text="Your mission is clear: eliminate the enemy ships, face the final boss, and save Earth. The clock is ticking—can you type fast enough to secure victory?" textAlignment="CENTER" textFill="#3e3467" wrapText="true" />
+         </children>
+      </VBox>
+      <Button fx:id="homeButton" layoutX="265.0" layoutY="373.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="71.0" styleClass="long" text="&lt; Home" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="264.0" />
+   </children>
+</AnchorPane>

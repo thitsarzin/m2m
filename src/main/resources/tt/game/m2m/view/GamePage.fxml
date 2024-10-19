@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="game-background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tt.game.m2m.controller.GamePageController">
+   <children>
+      <ImageView fx:id="wordToTypeImage" fitHeight="92.0" fitWidth="190.0" layoutX="206.0" layoutY="-5.0" pickOnBounds="true" />
+      <HBox alignment="CENTER_LEFT" layoutX="26.0" layoutY="14.0" prefHeight="29.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="timeLabelPrefix" text="Time : " />
+            <Label fx:id="timeLabel" text="Label" />
+         </children>
+      </HBox>
+      <GridPane fx:id="gameGridPane" layoutX="14.0" layoutY="38.0" prefHeight="362.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="38.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints fillHeight="false" maxHeight="26.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="46.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="118.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="226.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="335.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="64.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="172.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="280.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="390.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER_LEFT" layoutX="468.0" layoutY="14.0" prefHeight="29.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="bossLives" text="Boss lives : " />
+            <Label fx:id="bossLivesLabel" text="Label" />
+         </children>
+      </HBox>
+      <Label fx:id="wordToType" layoutX="285.0" layoutY="30.0" styleClass="word2type" text="Label" />
+      <Label fx:id="wordToTypeLabel" layoutX="272.0" layoutY="14.0" prefHeight="17.0" prefWidth="62.0" styleClass="word2type" text="Word to type : ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

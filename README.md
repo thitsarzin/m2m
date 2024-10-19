@@ -4,23 +4,23 @@ Mission 2 Moon is a fun and interactive word-typing game where the player contro
 
 ## Game Features
 
-Player Selection: Choose a spaceship for your player from a predefined list.
-Difficulty Levels:
-Easy: Boss dies after 5 hits; words are simple.
-Normal: Boss dies after 5 hits; words are moderately challenging.
-Hard: Boss dies after 10 hits; words are difficult.
-Score System: The game tracks and saves the player’s name, chosen level, and elapsed time after completion.
+- **Player Selection**: Choose a spaceship for your player from a predefined list.
+- **Difficulty Levels**:
+- **Easy**: Boss dies after 5 hits; words are simple.
+- **Normal**: Boss dies after 5 hits; words are moderately challenging.
+- **Hard**: Boss dies after 10 hits; words are difficult.
+- **Score System**: The game tracks and saves the player’s name, chosen level, and elapsed time after completion.
 
 ## Gameplay
 
-Start the Game: Enter your player name and select your spaceship on the selection page.
-Choose Level: Pick the difficulty level: Easy, Normal, or Hard.
-Play: The game will display words that you need to type correctly. Each correct word damages the boss. Defeat the boss to win the game!
-Leaderboard: After the game, your score (elapsed time) will be saved and shown on the leaderboard.
+- **Start the Game**: Enter your player name and select your spaceship on the selection page.
+- **Choose Level**: Pick the difficulty level: Easy, Normal, or Hard.
+- **Play**: The game will display words that you need to type correctly. Each correct word damages the boss. Defeat the boss to win the game!
+- **Leaderboard**: After the game, your score (elapsed time) will be saved and shown on the leaderboard.
 
 ## Technologies Used
 
-Scala: Version 2.12
-Java: Version 8
-ScalaFX: Version 8
-[SBT](https://www.scala-sbt.org/download/)
+- Scala: Version 2.12
+- Java: Version 8
+- ScalaFX: Version 8
+- [SBT](https://www.scala-sbt.org/download/)
